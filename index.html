@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Base - Plantilla Principal</title>
+  <link rel="stylesheet" href="src/templates/template-demo/styles.css">
+</head>
+<body>
+
+  <!-- NAVEGACIÓN Y LOGO -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="src/assets/logo.svg" alt="Logo del Proyecto" id="project-logo" />
+        <span>NombreProyecto</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#explicacion">Proyecto</a></li>
+          <li><a href="#apartado-u">Apartado U</a></li>
+          <li><a href="#demo" class="btn-primary">Ver Ejemplo #1</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SECCIÓN 1: EXPLICACIÓN GENERAL DEL PROYECTO -->
+  <section id="explicacion" class="hero">
+    <div class="container">
+      <h1>Bienvenido al Proyecto</h1>
+      <p class="subtitle">
+        Esta plataforma sirve como base interactiva para estructurar, explicar y ejecutar los diferentes componentes y demostraciones del proyecto.
+      </p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: APARTADO U (EXPLICACIÓN DETALLADA) -->
+  <section id="apartado-u" class="section-alt">
+    <div class="container">
+      <h2>Apartado U</h2>
+      <p>
+        En esta sección explicamos los fundamentos del **Apartado U**, detallando su propósito, arquitectura y la lógica requerida antes de pasar a la demostración interactiva.
+      </p>
+      <div class="grid-features">
+        <div class="card">
+          <h3>Concepto U1</h3>
+          <p>Explicación breve del primer concepto clave dentro del módulo U.</p>
+        </div>
+        <div class="card">
+          <h3>Concepto U2</h3>
+          <p>Explicación breve del segundo concepto clave dentro del módulo U.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 3: CONTENEDOR DEL EJEMPLO #1 (PLANTILLA BASE) -->
+  <section id="demo" class="demo-container">
+    <div class="container">
+      <h2>Ejemplo #1: Plantilla Interactiva</h2>
+      <p>A continuación se muestra el primer módulo interactivo desarrollado a partir de esta plantilla:</p>
+      
+      <!-- Marco donde se renderiza el ejemplo interactivo -->
+      <div id="demo-frame" class="demo-box">
+        <p><em>[ El primer ejemplo interactivo cargará aquí ]</em></p>
+        <button id="btn-ejecutar" class="btn-action">Ejecutar Acción del Ejemplo</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Proyecto Base - Diseñado por Agentes UI/UX</p>
+    </div>
+  </footer>
+
+  <script src="src/templates/template-demo/script.js"></script>
+</body>
+</html>
